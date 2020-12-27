@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const schedule = require('node-schedule')
 const axios = require('axios');
+
 const fsym = 'SLP'
 const tsyms = 'USD'
 
