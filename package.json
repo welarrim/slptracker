@@ -1,0 +1,22 @@
+{
+  "name": "slp-tracker",
+  "version": "1.0.1",
+  "description": "Track SLP",
+  "main": "index.js",
+  "author": "Wadie ELARRIM",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "node-schedule": "^1.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
